@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Orbitron:wght@700&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    margin: 25px 100px;
+    font-family: "Orbitron";
+}
+
+/********** navbar ***********/
+nav{
+    position: relative;
+}
+nav ul{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.OM{
+    border-bottom: 3px solid #000;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.button-group{
+    float: none;
+    position: absolute;
+    top: 51%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+}
+.nav-button{
+    font-family: "Orbitron";
+    font-weight: 700;
+    padding: 8px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.search-img{
+    position: absolute;
+    bottom: 15px;
+    left: -35px;
+}
+
+/************* content **************/
+.hero-container{
+    margin-top: 50px;
+    position: relative;
+}
+.hero-img-container{
+    position: absolute;
+    top: 0px;
+}
+.hero-img{
+    height: 450px;
+    width: 350px;   
+}
+.square{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+.square-img{
+    height: 300px;
+    width: 300px;  
+}
+.hero-container-right{
+    position: absolute;
+    left: 40%;
+}
+.star{
+    position: absolute;
+    right: 0px;
+    height: 40px;
+}
+.globe{
+    position: absolute;
+    left: 40px;
+    height: 55px;
+}
+.hero-heading{
+    font-size: 40px;
+    float: none;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    word-spacing: 15px;
+    
+}
+.content-container{
+    margin-top: 20%;
+}
+.hero-description{
+    margin-top: 25%;
+    text-align: center;
+    line-height: 20px;
+    color: #758283;
+}
+.button-email{
+    font-family: "Orbitron";
+    padding: 3px 14px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+.button-join{
+    font-family: "Orbitron";
+    padding: 3px 10px;
+    background-color: #000;
+    border-radius: 4px;
+    border: 0px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.btn-grp{
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+/* footer */
+.footer-container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    top: 180px;  
+}
+.contact-heading{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.social-media-icons{
+    margin-left: 33%;
+    height: 20px;
+}
+.footer-container .social-media-icons span{
+    padding-left: 15px;
+}
+
+
+
